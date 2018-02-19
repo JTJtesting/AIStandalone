@@ -10,13 +10,25 @@
   background-color: yellow;
 }
 
+.main-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: 100vh;
+  padding: 10px 0;
+}
+
 .btn-panel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
   padding: 0px;
   width: 60%;
 }
 
 .btn-panel {
-
+  flex: 1 0 auto;
 }
 
 .btn-panel-row {
