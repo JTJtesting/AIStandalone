@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/cryptografie.css">
@@ -10,99 +11,107 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-2 red">
-        niks
+
       </div>
       <div class="col-8 blue">
-        <h1>
-          Mooie Standalone website
-        </h1>
-        <h2>
-          Cryptografie
-        </h2>
-        <p>
-          Al zolang mensen bestaan, hebben ze geheimen die verborgen moeten blijven voor anderen. Het
-          verborgen houden van informatie dat verzonden moet worden, heet cryptografie of geheimschrift. De
-          informatie die verborgen moet worden heet de klare tekst. Het verbergen hiervan, op welke mogelijke
-          manier dan ook, heet vercijferen of versleutelen. Het ongedaan maken van deze vercijferingen of
-          versleutelingen heet ontcijferen of ontsleutelen.
-        </p>
-        <p>
-          In het leger van Alexander de Grote (356 v.Chr. - 323 v.Chr.) werd, voor zover bekend, voor eerst
-          gebruik gemaakt van klassieke of eenvoudige cryptografie. Hier gebruikte men scytale (ook wel
-          stafversleuteling) waarin men een stuk papier of perkament diagonaal om een stok of staf heen
-          wikkelde en vervolgens de tekst verticaal op het papier of perkament schreven, waarna het weer van
-          de stok werd afgehaald en werd verstuurd. Je kon het bericht dan alleen lezen als je een staf van
-          dezelfde dikte had. Voor de staf werd vaak een speer of wapenstok gebruikt omdat deze versleuteling
-          vooral in het leger werd gebruikt. Dit is slechts een eenvoudige maar voor die tijd effectieve methode
-          om bepaalde informatie geheim te houden.
-        </p>
-        <img src="http://pipsum.com/500x400.jpg"></img>
-	
-        <table id="Caesartable">
-					<tr id="toprow">
-					<td class="caesarCell">a</td>
-					<td class="caesarCell">b</td>
-					<td class="caesarCell">c</td>
-					<td class="caesarCell">d</td>
-					<td class="caesarCell">e</td>
-					<td class="caesarCell">f</td>
-					<td class="caesarCell">g</td>
-					<td class="caesarCell">h</td>
-					<td class="caesarCell">i</td>
-					<td class="caesarCell">j</td>
-					<td class="caesarCell">k</td>
-					<td class="caesarCell">l</td>
-					<td class="caesarCell">m</td>
-					<td class="caesarCell">n</td>
-					<td class="caesarCell">o</td>
-					<td class="caesarCell">p</td>
-					<td class="caesarCell">q</td>
-					<td class="caesarCell">r</td>
-					<td class="caesarCell">s</td>
-					<td class="caesarCell">t</td>
-					<td class="caesarCell">u</td>
-					<td class="caesarCell">v</td>
-					<td class="caesarCell">w</td>
-					<td class="caesarCell">x</td>
-					<td class="caesarCell">y</td>
-					<td class="caesarCell">z</td>
-					</tr>
-					<tr id="outputrow">
-					<td id="caesarCell">a</td>
-					<td id="caesarCell">b</td>
-					<td id="caesarCell">c</td>
-					<td id="caesarCell">d</td>
-					<td id="caesarCell">e</td>
-					<td id="caesarCell">f</td>
-					<td id="caesarCell">g</td>
-					<td id="caesarCell">h</td>
-					<td id="caesarCell">i</td>
-					<td id="caesarCell">j</td>
-					<td id="caesarCell">k</td>
-					<td id="caesarCell">l</td>
-					<td id="caesarCell">m</td>
-					<td id="caesarCell">n</td>
-					<td id="caesarCell">o</td>
-					<td id="caesarCell">p</td>
-					<td id="caesarCell">q</td>
-					<td id="caesarCell">r</td>
-					<td id="caesarCell">s</td>
-					<td id="caesarCell">t</td>
-					<td id="caesarCell">u</td>
-					<td id="caesarCell">v</td>
-					<td id="caesarCell">w</td>
-					<td id="caesarCell">x</td>
-					<td id="caesarCell">y</td>
-					<td id="caesarCell">z</td>
-					</tr>
-				</table>
+        <div class="block">
 
-				<div class="slidecontainer">
-					<input type="range" min="0" max="25" value="0" class="slider" id="Range3">
-				</div>
-				<p>Verschuiving: <span id="ValRange3"></span></p>
+          <h1>
+            Mooie Standalone website
+          </h1>
+          <h2>
+            Cryptografie
+          </h2>
 
+          <p>
+            Al zolang mensen bestaan, hebben ze geheimen die verborgen moeten blijven voor anderen. Het
+            verborgen houden van informatie dat verzonden moet worden, heet cryptografie of geheimschrift. De
+            informatie die verborgen moet worden heet de klare tekst. Het verbergen hiervan, op welke mogelijke
+            manier dan ook, heet vercijferen of versleutelen. Het ongedaan maken van deze vercijferingen of
+            versleutelingen heet ontcijferen of ontsleutelen.
+          </p>
+          <p>
+            In het leger van Alexander de Grote (356 v.Chr. - 323 v.Chr.) werd, voor zover bekend, voor eerst
+            gebruik gemaakt van klassieke of eenvoudige cryptografie. Hier gebruikte men scytale (ook wel
+            stafversleuteling) waarin men een stuk papier of perkament diagonaal om een stok of staf heen
+            wikkelde en vervolgens de tekst verticaal op het papier of perkament schreven, waarna het weer van
+            de stok werd afgehaald en werd verstuurd. Je kon het bericht dan alleen lezen als je een staf van
+            dezelfde dikte had. Voor de staf werd vaak een speer of wapenstok gebruikt omdat deze versleuteling
+            vooral in het leger werd gebruikt. Dit is slechts een eenvoudige maar voor die tijd effectieve methode
+            om bepaalde informatie geheim te houden.
+          </p>
 
+        </div>
+        <div class="block">
+          <img src="http://pipsum.com/500x400.jpg"></img>
+        </div>
+
+        <div class="block">
+          <table id="Caesartable">
+  					<tr id="toprow">
+  					<td class="caesarCell">a</td>
+  					<td class="caesarCell">b</td>
+  					<td class="caesarCell">c</td>
+  					<td class="caesarCell">d</td>
+  					<td class="caesarCell">e</td>
+  					<td class="caesarCell">f</td>
+  					<td class="caesarCell">g</td>
+  					<td class="caesarCell">h</td>
+  					<td class="caesarCell">i</td>
+  					<td class="caesarCell">j</td>
+  					<td class="caesarCell">k</td>
+  					<td class="caesarCell">l</td>
+  					<td class="caesarCell">m</td>
+  					<td class="caesarCell">n</td>
+  					<td class="caesarCell">o</td>
+  					<td class="caesarCell">p</td>
+  					<td class="caesarCell">q</td>
+  					<td class="caesarCell">r</td>
+  					<td class="caesarCell">s</td>
+  					<td class="caesarCell">t</td>
+  					<td class="caesarCell">u</td>
+  					<td class="caesarCell">v</td>
+  					<td class="caesarCell">w</td>
+  					<td class="caesarCell">x</td>
+  					<td class="caesarCell">y</td>
+  					<td class="caesarCell">z</td>
+  					</tr>
+  					<tr id="outputrow">
+  					<td id="caesarCell">a</td>
+  					<td id="caesarCell">b</td>
+  					<td id="caesarCell">c</td>
+  					<td id="caesarCell">d</td>
+  					<td id="caesarCell">e</td>
+  					<td id="caesarCell">f</td>
+  					<td id="caesarCell">g</td>
+  					<td id="caesarCell">h</td>
+  					<td id="caesarCell">i</td>
+  					<td id="caesarCell">j</td>
+  					<td id="caesarCell">k</td>
+  					<td id="caesarCell">l</td>
+  					<td id="caesarCell">m</td>
+  					<td id="caesarCell">n</td>
+  					<td id="caesarCell">o</td>
+  					<td id="caesarCell">p</td>
+  					<td id="caesarCell">q</td>
+  					<td id="caesarCell">r</td>
+  					<td id="caesarCell">s</td>
+  					<td id="caesarCell">t</td>
+  					<td id="caesarCell">u</td>
+  					<td id="caesarCell">v</td>
+  					<td id="caesarCell">w</td>
+  					<td id="caesarCell">x</td>
+  					<td id="caesarCell">y</td>
+  					<td id="caesarCell">z</td>
+  					</tr>
+				  </table>
+          <div class="slidecontainer">
+            <input type="range" min="0" max="25" value="0" class="slider" id="Range3">
+    			</div>
+    			<p>Verschuiving: <span id="ValRange3"></span></p>
+        </div>
+
+        <div class="block">
         Caesarcijfer<br>
 
         				<input type="text" placeholder="" class="Caesarcijfer">
@@ -116,7 +125,8 @@
                 <table id="alphabettable">
 
 				</table>
-	<div id="Vignère">
+      </div>
+      <div id="Vignère">
 
         Vignère
 				<br>
@@ -125,29 +135,29 @@
 				<input type="text" value="Codewoord" id="Codewoord" class="Vignère">
 				<br>
 				<div id="Vignèresom">
-					
+
 						<span id="Codezinoutput"> </span><br>
 						<span id="Codewoordoutput"> </span><span class="plus"> +</span><br>
 
 						<span id="Vignèreoutput"> </span>
-					
-					
+
+
 					<table>
 						<tr id="Codezinoutputcijfers"><td> </td></tr>
 						<tr id="Codewoordoutputcijfers"><td> </td></tr>
 						<tr id="Vignèreoutputcijfers"><td> </td></tr>
 					</table>
-					
+
 				</div>
 
 
       </div>
-	</div>
-      <div class="col-2 red">
-        niks
+	   </div>
+     <div class="col-2 red">
+
+      </div>
       </div>
     </div>
-  </div>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
