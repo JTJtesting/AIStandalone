@@ -75,15 +75,18 @@ input[type="text"] {
 }
 
 #Caesartable td{
- font-size: 40px;
- padding: 0px 5px;
- min-width: 35px;
+ font-size: 1.5vw;
+ padding: 0px 0.1vw;
+ min-width: 1.6vw;
  text-align: center;
 }
 
 #alphabettable td{
- font-size: 40px;
- padding: 0px 5px;
- min-width: 35px;
+ font-size: 1.5vw;
+ padding: 0px 0.1vw;
+ min-width: 2.1;
  text-align: center;
+}
+tr, table {
+  width: 100%;
 }

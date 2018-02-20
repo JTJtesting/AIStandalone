@@ -11,6 +11,10 @@ a, a:hover {
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+}
+
 .red {
   /*background-color: red;*/
 }
@@ -92,4 +96,41 @@ a, a:hover {
 .block {
   margin-bottom: 75px;
   margin-top: 25px;
+  padding: 25px;
+  background-color: grey;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey;
+}
+
+#title {
+  font-size: 3em;
+  margin-left: 1em;
+}
+
+#back {
+  margin: 20px;
+  padding: 0px;
+  border-radius: 5%;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  display: table;
+  background-color: black;
+}
+
+#back a {
+  display: table-cell;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+
+#back a:hover{
+  background-color: darkgrey;
+  color: black;
 }
