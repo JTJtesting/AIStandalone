@@ -115,50 +115,50 @@ $(function() {
 // Caesar decoden
 //
 
-var slideront = document.getElementById("Range2");
-var outputont = document.getElementById("ValRange2");
-output.innerHTML = "0"; // Display the default slider value
-var Caesarontverschuifing = slideront.value;
-// Update the current slider value (each time you drag the slider handle)
-slideront.oninput = function() {
-    outputont.innerHTML = this.value;
-    Caesarontverschuifing = this.value;
-}
-
-
-$(function() {
-  $('.Caesarontcijfer').each(function() {
-    var elem = $(this);
-
-
-    // Look for changes in the value
-    $("#Range2").on("propertychange change click keyup input paste", function(event) {
-      updateCaesaront(elem);
-    });
-    elem.on("propertychange change click keyup input paste", function(event) {
-      updateCaesaront(elem);
-    });
-  });
-});
-
-function updateCaesaront(element) {
-  element.data('oldVal', element.val());
-  element.val(element.data('oldVal').toLowerCase());
-  $("#Caesarontoutput").html(Caesarontcijfer(element.val().toLowerCase(), Caesarontverschuifing));
-}
-
-function Caesarontcijfer(input, verschuif) {
-  verschuif = Number(verschuif);
-  var Caesaroutput = "";
-  for (var i = 0; i < input.length; i++) {
-    if (alphabet.indexOf(input[i]) != -1) {
-      Caesaroutput += alphabet[mod(alphabet.indexOf(input[i]) - verschuif, alphabet.length)];
-    } else {
-      Caesaroutput += input[i];
-    }
-  }
-  return Caesaroutput;
-}
+// var slideront = document.getElementById("Range2");
+// var outputont = document.getElementById("ValRange2");
+// output.innerHTML = "0"; // Display the default slider value
+// var Caesarontverschuifing = slideront.value;
+// // Update the current slider value (each time you drag the slider handle)
+// slideront.oninput = function() {
+//     outputont.innerHTML = this.value;
+//     Caesarontverschuifing = this.value;
+// }
+//
+//
+// $(function() {
+//   $('.Caesarontcijfer').each(function() {
+//     var elem = $(this);
+//
+//
+//     // Look for changes in the value
+//     $("#Range2").on("propertychange change click keyup input paste", function(event) {
+//       updateCaesaront(elem);
+//     });
+//     elem.on("propertychange change click keyup input paste", function(event) {
+//       updateCaesaront(elem);
+//     });
+//   });
+// });
+//
+// function updateCaesaront(element) {
+//   element.data('oldVal', element.val());
+//   element.val(element.data('oldVal').toLowerCase());
+//   $("#Caesarontoutput").html(Caesarontcijfer(element.val().toLowerCase(), Caesarontverschuifing));
+// }
+//
+// function Caesarontcijfer(input, verschuif) {
+//   verschuif = Number(verschuif);
+//   var Caesaroutput = "";
+//   for (var i = 0; i < input.length; i++) {
+//     if (alphabet.indexOf(input[i]) != -1) {
+//       Caesaroutput += alphabet[mod(alphabet.indexOf(input[i]) - verschuif, alphabet.length)];
+//     } else {
+//       Caesaroutput += input[i];
+//     }
+//   }
+//   return Caesaroutput;
+// }
 
 //
 // Vignère

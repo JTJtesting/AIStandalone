@@ -60,6 +60,8 @@ input[type="text"] {
 
 #Codezinoutputcijfers td, #Codewoordoutputcijfers td, #Vignèreoutputcijfers td{
   text-align: center;
+  font-size: 32px;
+  line-height: 1.8;
 }
 
  #Vignèreoutput,
