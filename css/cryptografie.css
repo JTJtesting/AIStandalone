@@ -47,6 +47,8 @@ input[type="text"] {
 
 #Vignèresom {
   transform: 0.7s all;
+  overflow-x: scroll;
+  font-family: 'Courier New';
 }
 
 #Vignère #Codewoordoutput,
@@ -62,6 +64,7 @@ input[type="text"] {
   text-align: center;
   font-size: 32px;
   line-height: 1.8;
+  padding: 5px;
 }
 
  #Vignèreoutput,
