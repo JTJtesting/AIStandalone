@@ -48,9 +48,7 @@
           </p>
 
         </div>
-        <div class="block">
-          <img src="http://pipsum.com/500x400.jpg"></img>
-        </div>
+        
 
         <div class="block">
           <table id="Caesartable">
@@ -118,9 +116,16 @@
         </div>
 
         <div class="block">
-          Caesarcijfer<br>
+          <h2>
+						Caesarcijfer
+					</h2><br>
+					
+					<p>Het Caesarcijfer, soms ook Caesarrotatie genoemd, is een van de eerste echte cryptosystemen die grootschalig werd toegepast. Julius Caesar stond er om bekend dat hij dit systeem gebruikte en daarom werd het systeem dan ook naar hem vernoemd.
 
-  				<input type="text" placeholder="" class="Caesarcijfer">
+Het Caesarcijfer werkt door een alfabet vooraf op te stellen tussen contactpersonen. Dit kan het standaard Latijnse alfabet zijn met 26 symbolen, maar ook een zelfbedacht alfabet zoals het Latijnse alfabet met de cijfers nul tot en met negen erachter, in totaal 36 symbolen. Elk teken moet zijn eigen positie hebben in het alfabet. Zo geldt voor het Latijnse alfabet dat:A=0, B=1, enzovoort. Vervolgens worden alle tekens in het alfabet enkele plaatsen opgeschoven. Deze verschuiving wordt k. Stel voor het Latijnse alfabet nemen wek=3, dan worden alle tekens drie plaatsen naar links verschoven. Zo is een A voor de versleuteling, een D na de versleuteling en de Y voor de versleuteling, een B na de versleuteling.
+</p>
+					
+  				<input type="text" placeholder="" value="profielwerkstuk" class="Caesarcijfer"><br><br>
   				<div class="slidecontainer">
   					<input type="range" min="0" max="25" value="0" class="slider" id="Range1">
   				</div>
@@ -138,11 +143,21 @@
         <div class="block">
       <div id="Vignère">
 
-        Vignère
+        <h2>
+					Vigenèrecijfer
+				</h2>
+				<p>Het Vigenèrecijfer is een cijfer opgebouwd uit meerdere verweven Caesarcijfers. Het cijfer is bedacht door Blaise de Vigenère in de 19e eeuw. Het idee achter het Vigenèrecijfer is dat er een sleutelwoord afgesproken wordt. De tekens van dat codewoord worden omgezet in cijfers door bijvoorbeeld A=0, B=1, enzovoort. Vervolgens moet het sleutelwoord herhaaldelijk onder de klare tekst worden gezet.</p>
+				
+				<p>Een voordeel van het Vigenèrecijfer is dat het een directe verbetering is van het Caesarcijfer. Er wordt voor elk teken een andere verplaatsing gedaan totdat het sleutelwoord zich weer herhaald. Zonder de lengte van het sleutelwoord te weten kan er dus geen standaard frequentieanalyse op worden uitgevoerd.
+				</p>
+				<p>
+Een nadeel is dat zodra de lengte van het sleutelwoord bekend is, het eenvoudig is om het cijfer te ontcijferen. Wanneer een sleutelwoord bijvoorbeeld uit vijf tekens bestaat, is het eerste, het zesde en het elfde teken dezelfde verschuiving ondergaan. Hetzelfde geldt voor het tweede, het zevende en het twaalfde teken et cetera. Op deze manier zijn er in totaal maar vijf Caesarverschuivingen nodig om achter de klare tekst te komen. 
+</p>
+				
 				<br>
-				<input type="text" value="Codezin" id="Codezin" class="Vignère">
+				<input type="text" value="klare tekst" id="Codezin" class="Vignère">
 				<br>
-				<input type="text" value="Codewoord" id="Codewoord" class="Vignère">
+				<input type="text" value="sleutelwoord" id="Codewoord" class="Vignère">
 				<br>
 				<div id="Vignèresom">
 

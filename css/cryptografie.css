@@ -77,7 +77,7 @@ input[type="text"] {
   margin-left: 10px;
 }
 
-.caesarCell  {
+.caesarCell, #caesarCell {
   text-transform: uppercase;
 }
 
@@ -96,4 +96,8 @@ input[type="text"] {
 }
 tr, table {
   width: 100%;
+}
+
+#Vignèresom table, #Vignèresom {
+  margin-top: 30px;
 }
